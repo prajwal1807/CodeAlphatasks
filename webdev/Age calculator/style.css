@@ -1,0 +1,50 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-color: #000; /* Set background color to black */
+    color: #fff; /* Set text color to white */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #222; /* Set container background color */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #fff; /* Set heading color to white */
+}
+
+label, input {
+    margin: 10px;
+}
+
+input {
+    padding: 5px;
+    width: 50px;
+}
+
+button {
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#result {
+    margin-top: 20px;
+    color: blue; /* Set age color to red */
+    font-weight: bold;
+}
+
+
